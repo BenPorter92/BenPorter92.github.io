@@ -12,10 +12,22 @@ body{
 
 .assignment img{
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid black;
+
 }
 
 h1 {
     color: white;
     text-align:center;
 }
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+p{
+    color:white;
+}
+
