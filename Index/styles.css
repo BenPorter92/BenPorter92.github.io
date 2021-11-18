@@ -3,10 +3,16 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assignment {
-    display:flex;
+    width:22%;
     padding:10px;
     margin:10px;
+    padding:20px 10px;
     background: grey;
 }
 
@@ -14,12 +20,18 @@ body{
     width:200px;
     margin:10px;
     border:4px solid black;
+    display: block;
+    margin: auto;
 
 }
 
 h1 {
     color: white;
     text-align:center;
+}
+
+h2 {
+    text-align: center;
 }
 
 a{
